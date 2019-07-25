@@ -2,4 +2,4 @@ OverlappingProblems:  FibanocciDynamicProgramming
 Optimal Substructure: LongestIncreasingSubsequenceDynamicProgramming
 
 LongestCommonSubsequence
-DynamicProgramming page number 82 
+DynamicProgramming page number 123 
