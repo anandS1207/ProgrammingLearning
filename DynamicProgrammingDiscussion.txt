@@ -1,5 +1,15 @@
-OverlappingProblems:  FibanocciDynamicProgramming
-Optimal Substructure: LongestIncreasingSubsequenceDynamicProgramming
-
-LongestCommonSubsequence
-DynamicProgramming page number 145 
+DP-01 | Overlapping Subproblems Property inDynamic Programming
+DP-02 | Optimal Substructure Property in Dynamic Programming
+DP-03 | Longest Increasing Subsequence
+DP-04 | Longest Common Subsequence
+DP-05 | Edit Distance
+DP-06 | Min Cost Path
+DP-07 | Coin Change
+DP-08 | Matrix Chain Multiplication
+DP-09 | Binomial Coefficient
+DP-10 | 0-1 Knapsack Problem
+DP-11 | Egg Dropping Puzzle
+DP-12 | Longest Palindromic Subsequence
+DP-13 | Cutting a Rod
+DP-14 | Maximum Sum Increasing Subsequence
+DP-15 | Longest Bitonic Subsequence
