@@ -13,3 +13,5 @@ DP-12 | Longest Palindromic Subsequence
 DP-13 | Cutting a Rod
 DP-14 | Maximum Sum Increasing Subsequence
 DP-15 | Longest Bitonic Subsequence
+DP-16 | Floyd Warshall Algorithm
+DP-17 | Palindrome Partitioning   -  not working perfeclty
