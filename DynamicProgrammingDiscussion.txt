@@ -1,4 +1,4 @@
-DP-01 | Overlapping Subproblems Property inDynamic Programming
+DP-01 | Overlapping Subproblems Property in Dynamic Programming
 DP-02 | Optimal Substructure Property in Dynamic Programming
 DP-03 | Longest Increasing Subsequence
 DP-04 | Longest Common Subsequence

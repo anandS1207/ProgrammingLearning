@@ -1,6 +1,5 @@
 package geeksforgeeks.dynamicprogramming.problems;
 
-
 // some output miss matched
 public class KnapSackDynamicProgramming {
 	public static void main(String srgs[]) {
