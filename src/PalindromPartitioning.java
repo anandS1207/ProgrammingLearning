@@ -2,10 +2,10 @@
 public class PalindromPartitioning {
 	public static void main(String args[]) {
 		String rc = "ababbbabbababa";
-		System.out.println(minPalPartition(rc));
+		System.out.println(minPalPartion(rc));
 	}
 
-	static int minPalPartition(String str) {
+	static int minPalPartion(String str) {
 		int n = str.length();
 
 		int c[][] = new int[n][n];
