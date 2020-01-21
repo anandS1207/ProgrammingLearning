@@ -36,5 +36,5 @@ public class FilesList {
 //			} else
 //				allPaths.add(str);
 //		}
-//	}
+	}
 }
