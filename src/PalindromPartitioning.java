@@ -2,7 +2,6 @@
 public class PalindromPartitioning {
 	public static void main(String args[]) {
 		String rc = "ababbbabbababa";
-
 		System.out.println(minPalPatition(rc));
 	}
 
