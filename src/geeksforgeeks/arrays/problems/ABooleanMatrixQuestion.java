@@ -7,11 +7,13 @@ public class ABooleanMatrixQuestion {
 		Scanner s = new Scanner(System.in);
 		int m = s.nextInt();
 		int n = s.nextInt();
+		int i, j;
 		int row[] = new int[m];
 		int column[] = new int[n];
 		int[][] a = new int[m][n];
-		for (int i = 0; i < m; i++) {
-			for (int j = 0; j < n; j++) {
+		// only filling rows
+		for (i = 0; i < m; i++) {
+			for (j = 0; j < n; j++) {
 				a[i][j] = s.nextInt();
 				if (a[i][j] == 1) {
 					row[i] = 1;
@@ -19,22 +21,16 @@ public class ABooleanMatrixQuestion {
 				}
 			}
 		}
-		for (int i = 0; i < m; i++) {
-			if (row[i] == 1) {
-				for (int j = 0; j < n; j++) {
+		//
+		for (i = 0; i < m; i++) {
+			for (j = 0; j < n; j++) {
+				if (row[i] == 1 || column[j] == 1) {
 					a[i][j] = 1;
 				}
 			}
 		}
-		for (int i = 0; i < n; i++) {
-			if (column[i] == 1) {
-				for (int j = 0; j < m; j++) {
-					a[j][i] = 1;
-				}
-			}
-		}
-		for (int i = 0; i < m; i++) {
-			for (int j = 0; j < n; j++) {
+		for (i = 0; i < m; i++) {
+			for (j = 0; j < n; j++) {
 				System.out.print(a[i][j] + "  ");
 			}
 			System.out.println();
